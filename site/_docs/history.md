@@ -5,6 +5,30 @@ permalink: "/docs/history/"
 prev_section: contributing
 ---
 
+## 2.5.2 / 2014-11-17
+{: #v2-5-2}
+
+### Minor Enhancements
+{: #minor-enhancements-v2-5-2}
+
+- `post_url` should match `post.name` instead of slugs and dates ([#3058]({{ site.repository }}/issues/3058))
+
+### Bug Fixes
+{: #bug-fixes-v2-5-2}
+
+- Remove duplicate regexp phrase: `^\A` ([#3089]({{ site.repository }}/issues/3089))
+- Remove duplicate `Conversion error:` message in `Convertible` ([#3088]({{ site.repository }}/issues/3088))
+- Print full conversion error message in `Renderer#convert` ([#3090]({{ site.repository }}/issues/3090))
+
+### Site Enhancements
+{: #site-enhancements-v2-5-2}
+
+- Change variable names in Google Analytics script ([#3093]({{ site.repository }}/issues/3093))
+- Mention CSV files in the docs for data files ([#3101]({{ site.repository }}/issues/3101))
+- Add trailing slash to `paginate_path` example. ([#3091]({{ site.repository }}/issues/3091))
+- Get rid of noifniof (`excerpt_separator`) ([#3094]({{ site.repository }}/issues/3094))
+
+
 ## 2.5.1 / 2014-11-09
 {: #v2-5-1}
 
