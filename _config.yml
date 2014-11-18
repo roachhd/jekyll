@@ -12,3 +12,6 @@ help_url: https://roachhd.github.io/jekyll/jekyll-help
 collections:
   docs:
     output: true
+
+url: roachhd.github.io/jekyll/
+baseurl: /jekyll/
